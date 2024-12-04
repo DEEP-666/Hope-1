@@ -41,9 +41,9 @@ function analyzeBlood() {
 
     //for --> Sickle Cell Anemia
     if (hemoglobin < 13.8)         
-        addDisease("Sickle Cell Anemia", " - Genetic mutation causing defective hemoglobin (HbS)..Symptoms: Pain crises, fatigue, organ damage.");
+        addDisease("Sickle Cell Anemia", " - Genetic mutation causing defective hemoglobin (HbS)..Symptoms: Pain crises, fatigue, organ damage it.");
 
-    //for -->
+    //for -->Hemoglobinopathies
     if (hemoglobin > 17.2)         
         addDisease("Hemoglobinopathies", " - Cause: Abnormal hemoglobin types (e.g., HbC, HbE diseases).Symptoms: Vary from mild anemia to severe complications");
 
@@ -189,7 +189,7 @@ window.onload = function () {
             <p><strong>Hemoglobin:</strong> ${result.hemoglobin}</p>
             <p><strong>WBC:</strong> ${result.wbc}</p>
             <p><strong>Neutrophils:</strong> ${result.neutrophils}%</p>
-            <p><strong>Lymphocytes:</strong> ${result.lymphocytes}%</p>
+            <p><strong>Lymphocytes:</strong> ${result.lymphocytes}%</p> 
             <p><strong>Eosinophils:</strong> ${result.eosinophils}%</p>
             <p><strong>Basophils:</strong> ${result.basophils}%</p>
             <p><strong>Monocytes:</strong> ${result.monocytes}%</p>
